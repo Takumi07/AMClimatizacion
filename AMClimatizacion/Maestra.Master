@@ -5,14 +5,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+            <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css" />
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
+
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
-         <asp:Menu ID="Menu1" runat="server" BackColor="#E3EAEB" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.9em" ForeColor="#666666" StaticSubMenuIndent="10px">
+
+
+    <form id="form2" runat="server">
+         <div class="container-fluid">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="row">
+                <asp:Menu ID="Menu1" runat="server" BackColor="#E3EAEB" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.9em" ForeColor="#666666" StaticSubMenuIndent="10px">
                 <DynamicHoverStyle BackColor="#666666" ForeColor="White" />
                 <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                 <DynamicMenuStyle BackColor="#E3EAEB" />
@@ -26,10 +32,27 @@
                 <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                 <StaticSelectedStyle BackColor="#1C5E55" />
             </asp:Menu>
-        
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        </asp:ContentPlaceHolder>
+
+            </div>
+            <div class="row">
+                            <br />
+        <asp:ContentPlaceHolder ID="contenidoPagina" runat="server"></asp:ContentPlaceHolder>
+                 </div>
+
+             <div class="row"></div>
+        <br />
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 text-center">
+                    <div>Copyright 2015</div>
+                </div>
+        </div>
+            <br />
+        </div>
+        <div class="col-md-1"></div>
     </div>
     </form>
+
+
+     
 </body>
 </html>

@@ -5,7 +5,7 @@
     <script type="text/javascript" src="JS/jssor.slider.js"></script>
     <script type="text/javascript" src="JS/slideshow.js"></script>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoPagina" runat="server">
     <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; ">
 
         <!-- Loading Screen -->
