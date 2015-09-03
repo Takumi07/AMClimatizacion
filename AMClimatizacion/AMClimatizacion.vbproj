@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\bootstrap.css" />
+    <Content Include="CSS\Estilos.css" />
     <Content Include="Imagenes\a12.png" />
     <Content Include="Imagenes\b05.png" />
     <Content Include="Imagenes\ImagenesSlide\aire.jpg" />

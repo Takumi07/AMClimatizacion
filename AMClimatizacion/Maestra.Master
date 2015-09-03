@@ -6,19 +6,28 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
             <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css" />
+                <link rel="stylesheet" type="text/css" href="CSS/Estilos.css" />
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
 
     </asp:ContentPlaceHolder>
 </head>
 <body>
-
-
     <form id="form2" runat="server">
          <div class="container-fluid">
+           
         <div class="col-md-10 col-md-offset-1">
+              <div class="row">
+                 <div class="col-md-12 fondoGris" style="height:100px;">
+                     AM CLIMITAZACION
+                 </div>
+             </div>
             <div class="row">
-                <asp:Menu ID="Menu1" runat="server" BackColor="#E3EAEB" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.9em" ForeColor="#666666" StaticSubMenuIndent="10px">
+            <div class="col-md-2">
+                <div class="row">
+
+
+                <asp:Menu ID="Menu1" runat="server" BackColor="#E3EAEB" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.9em" ForeColor="#666666" StaticSubMenuIndent="10px" Width="100%">
                 <DynamicHoverStyle BackColor="#666666" ForeColor="White" />
                 <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                 <DynamicMenuStyle BackColor="#E3EAEB" />
@@ -32,13 +41,21 @@
                 <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                 <StaticSelectedStyle BackColor="#1C5E55" />
             </asp:Menu>
+                                    </div>
+                <br />
+                <br />
+<br />
+<br />
+<br />
 
+                <div class="row">
+                    pepeloco
+                </div>
             </div>
-            <div class="row">
-                            <br />
-        <asp:ContentPlaceHolder ID="contenidoPagina" runat="server"></asp:ContentPlaceHolder>
-                 </div>
-
+            <div class="col-md-10">        
+                <asp:ContentPlaceHolder ID="contenidoPagina" runat="server"></asp:ContentPlaceHolder>
+            </div>
+            </div>
              <div class="row"></div>
         <br />
         <div class="row">
@@ -50,9 +67,6 @@
         </div>
         <div class="col-md-1"></div>
     </div>
-    </form>
-
-
-     
+    </form>   
 </body>
 </html>

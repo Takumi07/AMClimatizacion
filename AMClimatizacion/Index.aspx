@@ -6,7 +6,13 @@
     <script type="text/javascript" src="JS/slideshow.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="contenidoPagina" runat="server">
-    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; ">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+
+
+ <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 800px; height: 450px; overflow: hidden; ">
 
         <!-- Loading Screen -->
         <div u="loading" style="position: absolute; top: 0px; left: 0px;">
@@ -19,7 +25,7 @@
         </div>
 
         <!-- Slides Container -->
-        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 300px; overflow: hidden;">
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px;width: 800px; height: 450px;   overflow: hidden;">
             <div>
                 <img u="image" src="Imagenes/ImagenesSlide/aire.jpg" />
             </div>
@@ -93,15 +99,21 @@
             .jssora12r.jssora12rdn { background-position: -315px -37px; }
         </style>
         <!-- Arrow Left -->
-        <span u="arrowleft" class="jssora12l" style="top: 123px; left: 0px;">
+        <span u="arrowleft" class="jssora12l" style="top: 200px; left: 0px;">
         </span>
         <!-- Arrow Right -->
-        <span u="arrowright" class="jssora12r" style="top: 123px; right: 0px;">
+        <span u="arrowright" class="jssora12r" style="top: 200px; right: 0px;">
         </span>
         <!--#endregion Arrow Navigator Skin End -->
         <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
     </div>
     <!-- Jssor Slider End -->
+            
+            </div>
 
+
+                </div>
+    </div>
+   
 
 </asp:Content>
