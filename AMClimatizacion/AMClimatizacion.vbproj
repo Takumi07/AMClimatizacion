@@ -85,14 +85,28 @@
     <Content Include="CSS\Estilos.css" />
     <Content Include="Imagenes\a12.png" />
     <Content Include="Imagenes\b05.png" />
-    <Content Include="Imagenes\ImagenesSlide\aire.jpg" />
-    <Content Include="Imagenes\ImagenesSlide\edificio.jpg" />
+    <Content Include="Imagenes\Clientes\bgh-logo.jpg" />
+    <Content Include="Imagenes\Clientes\Daikin Logo.png" />
+    <Content Include="Imagenes\Clientes\LG Logo.gif" />
+    <Content Include="Imagenes\Clientes\Logo-Surrey.jpg" />
+    <Content Include="Imagenes\ImagenesSlide\Slider1.jpg" />
+    <Content Include="Imagenes\ImagenesSlide\Slider2.jpg" />
+    <Content Include="Imagenes\ImagenesSlide\Slider3.jpg" />
+    <Content Include="Imagenes\ImagenesSlide\Slider4.jpg" />
+    <Content Include="Imagenes\ImagenesSlide\slider5.jpg" />
+    <Content Include="Imagenes\ImagenesSlide\slider6.jpg" />
+    <Content Include="Imagenes\ImagenesSlide\slider7.jpg" />
+    <Content Include="Imagenes\ImagenesSlide\slider8.jpg" />
+    <Content Include="Imagenes\ImagenesSlide\slider9.jpg" />
     <Content Include="Imagenes\loading.gif" />
+    <Content Include="Imagenes\Logo AM Climatizacion.jpg" />
     <Content Include="Index.aspx" />
     <Content Include="JS\jquery-1.9.1.min.js" />
     <Content Include="JS\jssor.js" />
     <Content Include="JS\jssor.slider.js" />
     <Content Include="JS\slideshow.js" />
+    <Content Include="NuestraEmpresa.aspx" />
+    <Content Include="NuestrosClientes.aspx" />
     <Content Include="test.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -128,6 +142,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NuestraEmpresa.aspx.designer.vb">
+      <DependentUpon>NuestraEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NuestraEmpresa.aspx.vb">
+      <DependentUpon>NuestraEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="NuestrosClientes.aspx.designer.vb">
+      <DependentUpon>NuestrosClientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NuestrosClientes.aspx.vb">
+      <DependentUpon>NuestrosClientes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="test.aspx.designer.vb">
       <DependentUpon>test.aspx</DependentUpon>

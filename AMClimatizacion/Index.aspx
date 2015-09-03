@@ -27,10 +27,31 @@
         <!-- Slides Container -->
         <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px;width: 800px; height: 450px;   overflow: hidden;">
             <div>
-                <img u="image" src="Imagenes/ImagenesSlide/aire.jpg" />
+                <img u="image" src="Imagenes/ImagenesSlide/Slider1.jpg" />
             </div>
             <div>
-                <img u="image" src="Imagenes/ImagenesSlide/edificio.jpg"/>
+                <img u="image" src="Imagenes/ImagenesSlide/Slider2.jpg"/>
+            </div>
+            <div>
+                <img u="image" src="Imagenes/ImagenesSlide/Slider3.jpg"/>
+            </div>
+            <div>
+                <img u="image" src="Imagenes/ImagenesSlide/Slider4.jpg"/>
+            </div>
+            <div>
+                <img u="image" src="Imagenes/ImagenesSlide/Slider5.jpg"/>
+            </div>
+            <div>
+                <img u="image" src="Imagenes/ImagenesSlide/Slider6.jpg"/>
+            </div>
+            <div>
+                <img u="image" src="Imagenes/ImagenesSlide/Slider7.jpg"/>
+            </div>
+            <div>
+                <img u="image" src="Imagenes/ImagenesSlide/Slider8.jpg"/>
+            </div>
+            <div>
+                <img u="image" src="Imagenes/ImagenesSlide/Slider9.jpg"/>
             </div>
         </div>
         

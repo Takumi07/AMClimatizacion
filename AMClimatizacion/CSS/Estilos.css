@@ -1,9 +1,34 @@
 ﻿.fondoGris {
 background-color:#808080;
-
+color:white;
+font-weight: bold;
 }
 
 .fondonegro {
 background-color:#000000;
 
+}
+
+/*AGREGADO DE ALEXIS*/
+.Logo{
+padding-left: 0%;
+width: 350px; 
+height: 100px;
+}
+
+.MenuHorizontal{
+background-color:gray;
+text-decoration-color: white;
+float: right;
+}
+
+.TextoJustificado{
+    text-align: justify;
+}
+
+.LogoClientes{
+padding-left: 0%;
+width: 150px; 
+height: 50px;
+border: black 2px solid;
 }
