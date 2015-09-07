@@ -34,15 +34,14 @@
                         <asp:MenuItem Text="Inicio" Value="Inicio" NavigateUrl="~/Index.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="Nuestra Empresa" Value="Nuestra Empresa" NavigateUrl="~/NuestraEmpresa.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="Nuestros Clientes" Value="Nuestros Clientes" NavigateUrl="~/NuestrosClientes.aspx"></asp:MenuItem>
-                        <asp:MenuItem Text="Contacto" Value="Contacto"></asp:MenuItem>
+                        <asp:MenuItem Text="Contacto" Value="Contacto" NavigateUrl="~/Contacto.aspx"></asp:MenuItem>
                     </Items>
                 </asp:Menu>
             </div>
+            <br />
             <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-2 fondonegro">
                 <div class="row">
-
-
                 <asp:Menu ID="Menu1" runat="server" BackColor="#E3EAEB" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.9em" ForeColor="#666666" StaticSubMenuIndent="10px" Width="100%">
                 <DynamicHoverStyle BackColor="#666666" ForeColor="White" />
                 <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
@@ -57,18 +56,33 @@
                 <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                 <StaticSelectedStyle BackColor="#1C5E55" />
             </asp:Menu>
-                                    </div>
-                <br />
-                <br />
-<br />
-<br />
-<br />
+           </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div class="row">
+                 <div class="col-md-6">
+                     <img class="img-thumbnail" src="Imagenes/RedesSociales/Facebook.png"  />
+                 </div>
+                 <div class="col-md-6">
+                     <img class="img-thumbnail" src="Imagenes/RedesSociales/twitter.png"  />
+                 </div>
+             </div>
+
             </div>
-            <div class="col-md-10">        
+            <div class="col-md-10 fondonegro">        
                 <asp:ContentPlaceHolder ID="contenidoPagina" runat="server"></asp:ContentPlaceHolder>
             </div>
             </div>
-             <div class="row"></div>
+           
         <br />
         <div class="row">
             <div class="col-md-4 col-md-offset-4 text-center">

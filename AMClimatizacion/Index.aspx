@@ -6,7 +6,7 @@
     <script type="text/javascript" src="JS/slideshow.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="contenidoPagina" runat="server">
-
+    <br />
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">

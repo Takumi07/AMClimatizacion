@@ -81,6 +81,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Contacto.aspx" />
     <Content Include="CSS\bootstrap.css" />
     <Content Include="CSS\Estilos.css" />
     <Content Include="Imagenes\a12.png" />
@@ -100,6 +101,8 @@
     <Content Include="Imagenes\ImagenesSlide\slider9.jpg" />
     <Content Include="Imagenes\loading.gif" />
     <Content Include="Imagenes\Logo AM Climatizacion.jpg" />
+    <Content Include="Imagenes\RedesSociales\Facebook.png" />
+    <Content Include="Imagenes\RedesSociales\twitter.png" />
     <Content Include="Index.aspx" />
     <Content Include="JS\jquery-1.9.1.min.js" />
     <Content Include="JS\jssor.js" />
@@ -111,6 +114,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contacto.aspx.designer.vb">
+      <DependentUpon>Contacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contacto.aspx.vb">
+      <DependentUpon>Contacto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Index.aspx.designer.vb">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
