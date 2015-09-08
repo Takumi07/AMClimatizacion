@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="contenidoPagina" runat="server">
     </br>
-    <div class="panel panel-primary">
+    <div class="panel panel-Clima">
         <div class="panel-heading">Contacto</div>
             <div class="panel-body">
             <br />
