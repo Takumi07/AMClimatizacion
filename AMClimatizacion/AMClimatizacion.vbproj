@@ -101,6 +101,7 @@
     <Content Include="Imagenes\ImagenesSlide\slider9.jpg" />
     <Content Include="Imagenes\loading.gif" />
     <Content Include="Imagenes\Logo AM Climatizacion.jpg" />
+    <Content Include="Imagenes\Logo AM Climatizacion.png" />
     <Content Include="Imagenes\RedesSociales\Facebook.png" />
     <Content Include="Imagenes\RedesSociales\twitter.png" />
     <Content Include="Index.aspx" />

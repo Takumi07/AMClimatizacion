@@ -14,22 +14,41 @@
 </head>
 <body>
     <form id="form2" runat="server">
-         <div class="container-fluid">
+      <br />
+           <div class="container-fluid">
            
         <div class="col-md-10 col-md-offset-1">
-              <div class="row">
-                 <div class="col-md-9 fondoGris" style="height:100px;">
-                     <img class="Logo" src="Imagenes/Logo AM Climatizacion.jpg" />
+              <div class="row borde">
+                 <div class="col-md-5 logoEmpresa" style="height:100%;">
+                     <img class="Logo" src="Imagenes/Logo AM Climatizacion.png" />
                  </div>
-                  <div class="col-md-3 fondoGris" style="height:100px; text-align:right">
-                      am.climatizacion@ciudad.com.ar<br />
-                      Teléfono: 4220-2569<br />
-                      Celular: 15-5343-4284<br />
-                      Celular: 15-2017-4983<br />
+                  <div class="col-md-3 col-md-offset-4">
+                      <div class="row miLabel">
+                         am.climatizacion@ciudad.com.ar
+                          </div>
+                              <div class="row miLabel">
+                       Teléfono: 4220-2569
+                          </div>
+                              <div class="row miLabel">
+                           Celular: 15-5343-4284
+                          </div>
+                           <div class="row miLabel">
+                         Celular: 15-2017-4983
+                      </div>
                   </div>
              </div>
-            <div class="row MenuHorizontal">
-                <asp:Menu ID="Menu2" runat="server" Orientation="Horizontal" ForeColor="White" Font-Bold="true">
+
+            <div class="row fondoGris">
+                <div class="col-md-5 col-md-offset-7">
+                <asp:Menu ID="Menu2" runat="server" Orientation="Horizontal" ForeColor="White"  Font-Names="Estrangelo Edessa" Height="35px" Font-Size="16PX">
+                        <StaticSelectedStyle BackColor="#FFFFFF" />
+                        <StaticMenuItemStyle HorizontalPadding="12px" VerticalPadding="6px" />
+                        <StaticHoverStyle BackColor="#FFFFFF" ForeColor="#333333" />
+                        <DynamicHoverStyle BackColor="#FFFFFF" ForeColor="#333333" />
+                        <DynamicMenuStyle BackColor="#00919E" />
+                        <DynamicSelectedStyle BackColor="#00919E" />
+                        <DynamicMenuItemStyle HorizontalPadding="12px" VerticalPadding="6px" />
+                    
                     <Items>
                         <asp:MenuItem Text="Inicio" Value="Inicio" NavigateUrl="~/Index.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="Nuestra Empresa" Value="Nuestra Empresa" NavigateUrl="~/NuestraEmpresa.aspx"></asp:MenuItem>
@@ -38,47 +57,50 @@
                     </Items>
                 </asp:Menu>
             </div>
-            <br />
+                                </div>
             <div class="row">
-            <div class="col-md-2 fondonegro">
-                <div class="row">
-                <asp:Menu ID="Menu1" runat="server" BackColor="#E3EAEB" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.9em" ForeColor="#666666" StaticSubMenuIndent="10px" Width="100%">
-                <DynamicHoverStyle BackColor="#666666" ForeColor="White" />
-                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-                <DynamicMenuStyle BackColor="#E3EAEB" />
-                <DynamicSelectedStyle BackColor="#1C5E55" />
+            <div class="col-md-2">
+                <div class="row fondoGris">
+      <asp:Menu ID="Menu1" runat="server" BackColor="#808080" DynamicHorizontalOffset="2" Font-Names="Estrangelo Edessa" Font-Size="16px" ForeColor="#FFFFFF" StaticSubMenuIndent="10px" Width="100%">
+            <StaticSelectedStyle BackColor="#FFFFFF" />
+                        <StaticMenuItemStyle HorizontalPadding="40px" VerticalPadding="6px" />
+                        <StaticHoverStyle BackColor="#FFFFFF" ForeColor="#333333" />
+                        <DynamicHoverStyle BackColor="#FFFFFF" ForeColor="#333333" />
+                        <DynamicMenuStyle BackColor="#00919E" />
+                        <DynamicSelectedStyle BackColor="#00919E" />
+                        <DynamicMenuItemStyle HorizontalPadding="40px" VerticalPadding="6px" />
                 <Items>
                     <asp:MenuItem Text="Línea Hogar" Value="Línea Hogar"></asp:MenuItem>
                     <asp:MenuItem Text="Línea Residencial" Value="Línea Residencial"></asp:MenuItem>
                     <asp:MenuItem Text="Línea Comercial" Value="Línea Comercial"></asp:MenuItem>
                 </Items>
-                <StaticHoverStyle BackColor="#666666" ForeColor="White" />
-                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-                <StaticSelectedStyle BackColor="#1C5E55" />
             </asp:Menu>
+                     <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+                                <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
            </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <div class="row">
-                 <div class="col-md-6">
-                     <img class="img-thumbnail" src="Imagenes/RedesSociales/Facebook.png"  />
-                 </div>
-                 <div class="col-md-6">
-                     <img class="img-thumbnail" src="Imagenes/RedesSociales/twitter.png"  />
-                 </div>
-             </div>
+           
+
 
             </div>
-            <div class="col-md-10 fondonegro">        
+            <div class="col-md-10">        
                 <asp:ContentPlaceHolder ID="contenidoPagina" runat="server"></asp:ContentPlaceHolder>
             </div>
             </div>

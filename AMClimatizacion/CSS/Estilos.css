@@ -1,7 +1,7 @@
 ﻿.fondoGris {
 background-color:#808080;
 color:white;
-font-weight: bold;
+height:100%;
 }
 
 .fondonegro {
@@ -35,4 +35,58 @@ border: black 2px solid;
 
 .NoEditable{
 resize: none;
+}
+
+.borde {
+border-style:solid;
+border-color:#808080;
+border-width:3px;
+}
+
+.fondotest {
+background-color:#E3EAEB;
+
+}
+
+.miLabel {
+text-align:right;
+font-size:16px;
+font-weight:bold;
+padding-right:10px;
+padding-top:2px;
+font-family:'Estrangelo Edessa';
+}
+
+itemMenu {
+margin-left:40px;
+width:100%;
+}
+
+.bordePagina {
+border-style:solid;
+border-color:#808080;
+border-width:4px;
+}
+
+
+
+
+
+.panel-Clima {
+  border-color: #363435;
+}
+.panel-Clima > .panel-heading {
+  color: #fff;
+  background-color: #363435;
+  border-color: #337ab7;
+}
+.panel-Clima > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #337ab7;
+}
+.panel-Clima > .panel-heading .badge {
+  color: #337ab7;
+  background-color: #fff;
+}
+.panel-Clima > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #337ab7;
 }
