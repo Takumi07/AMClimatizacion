@@ -4,43 +4,83 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-            <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css" />
-                <link rel="stylesheet" type="text/css" href="CSS/Estilos.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/Estilos.css" />
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
-
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form2" runat="server">
-      <br />
-           <div class="container-fluid">
-           
-        <div class="col-md-10 col-md-offset-1">
-              <div class="row borde">
-                 <div class="col-md-5 logoEmpresa" style="height:100%;">
-                     <img class="Logo" src="Imagenes/Logo AM Climatizacion.png" />
-                 </div>
-                  <div class="col-md-3 col-md-offset-4">
-                      <div class="row miLabel">
-                         am.climatizacion@ciudad.com.ar
-                          </div>
-                              <div class="row miLabel">
-                       Teléfono: 4220-2569
-                          </div>
-                              <div class="row miLabel">
-                           Celular: 15-5343-4284
-                          </div>
-                           <div class="row miLabel">
-                         Celular: 15-2017-4983
-                      </div>
-                  </div>
-             </div>
+        <br />
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="row borde">
+                        <div class="col-md-5 logoEmpresa" style="height: 100%;">
+                            <img class="Logo" src="Imagenes/Logo AM Climatizacion.png" />
+                        </div>
+                        <div class="col-md-5 col-md-offset-1">
 
-            <div class="row fondoGris">
-                <div class="col-md-5 col-md-offset-7">
-                <asp:Menu ID="Menu2" runat="server" Orientation="Horizontal" ForeColor="White"  Font-Names="Estrangelo Edessa" Height="35px" Font-Size="16PX">
+                            <div class="row miLabel">
+
+                                <div class="col-md-10 col-md-offset-2 text-right">
+                                    am.climatizacion@ciudad.com.ar
+                                </div>
+
+
+                            </div>
+                            <div class="row miLabel">
+
+                                <div class="col-md-10 col-md-offset-2 text-right">
+                                    Teléfono: 4220-2569
+                                </div>
+
+
+
+                            </div>
+                            <div class="row miLabel">
+
+                                <div class="col-md-10 col-md-offset-2 text-right">
+                                    Celular: 15-5343-4284
+                                </div>
+
+                            </div>
+                            <div class="row miLabel">
+
+                                <div class="col-md-10 col-md-offset-2 text-right">
+                                    Celular: 15-2017-4983
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                            <div class="row miLabel">
+                                <div class="col-md-2">
+                                    <img class="icon left" src="Imagenes/mail.png"/>
+                                </div>
+                            </div>
+                            <div class="row miLabel">
+                                <div class="col-md-2">
+                                    <img class="icon left" src="Imagenes/telefono.png"/>
+                                </div>
+                            </div>
+                            <div class="row miLabel">
+                                <div class="col-md-2">
+                                    <img class="icon left" src="Imagenes/celular.png"/>
+                                </div>
+                            </div>
+                            <div class="row miLabel">
+                                <div class="col-md-2">
+                                    <img class="icon left" src="Imagenes/celular.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row fondoGris">
+                        <div class="col-md-5 col-md-offset-7">
+                            <!--   <asp:Menu ID="Menu2" runat="server" Orientation="Horizontal" ForeColor="White"  Font-Names="Estrangelo Edessa" Height="35px" Font-Size="16PX">
                         <StaticSelectedStyle BackColor="#FFFFFF" />
                         <StaticMenuItemStyle HorizontalPadding="12px" VerticalPadding="6px" />
                         <StaticHoverStyle BackColor="#FFFFFF" ForeColor="#333333" />
@@ -48,19 +88,25 @@
                         <DynamicMenuStyle BackColor="#00919E" />
                         <DynamicSelectedStyle BackColor="#00919E" />
                         <DynamicMenuItemStyle HorizontalPadding="12px" VerticalPadding="6px" />
-                    
+                   
                     <Items>
+                         
                         <asp:MenuItem Text="Inicio" Value="Inicio" NavigateUrl="~/Index.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="Nuestra Empresa" Value="Nuestra Empresa" NavigateUrl="~/NuestraEmpresa.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="Nuestros Clientes" Value="Nuestros Clientes" NavigateUrl="~/NuestrosClientes.aspx"></asp:MenuItem>
                         <asp:MenuItem Text="Contacto" Value="Contacto" NavigateUrl="~/Contacto.aspx"></asp:MenuItem>
+                                               
                     </Items>
-                </asp:Menu>
-            </div>
-                                </div>
-            <div class="row">
+
+                </asp:Menu>  -->
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!--
             <div class="col-md-2">
                 <div class="row fondoGris">
+
       <asp:Menu ID="Menu1" runat="server" BackColor="#808080" DynamicHorizontalOffset="2" Font-Names="Estrangelo Edessa" Font-Size="16px" ForeColor="#FFFFFF" StaticSubMenuIndent="10px" Width="100%">
             <StaticSelectedStyle BackColor="#FFFFFF" />
                         <StaticMenuItemStyle HorizontalPadding="40px" VerticalPadding="6px" />
@@ -75,6 +121,7 @@
                     <asp:MenuItem Text="Línea Comercial" Value="Línea Comercial"></asp:MenuItem>
                 </Items>
             </asp:Menu>
+                 
                      <br />
             <br />
             <br />
@@ -98,23 +145,25 @@
            </div>
            
 
-
-            </div>
-            <div class="col-md-10">        
-                <asp:ContentPlaceHolder ID="contenidoPagina" runat="server"></asp:ContentPlaceHolder>
-            </div>
-            </div>
-           
-        <br />
-        <div class="row">
-            <div class="col-md-4 col-md-offset-4 text-center">
-                    <div>Copyright 2015</div>
+                                       -->
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-12">
+                            <asp:ContentPlaceHolder ID="contenidoPagina" runat="server"></asp:ContentPlaceHolder>
+                        </div>
+                    </div>
                 </div>
-        </div>
+            </div>
             <br />
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <div>Copyright 2016</div>
+                </div>
+            </div>
+            <br />
+
         </div>
-        <div class="col-md-1"></div>
-    </div>
-    </form>   
+    </form>
 </body>
 </html>

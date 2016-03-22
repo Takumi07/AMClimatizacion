@@ -90,3 +90,9 @@ border-width:4px;
 .panel-Clima > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #337ab7;
 }
+
+.icon {
+width:20px;
+height:20px;
+
+}

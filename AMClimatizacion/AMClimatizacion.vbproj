@@ -84,6 +84,7 @@
     <Content Include="Contacto.aspx" />
     <Content Include="CSS\bootstrap.css" />
     <Content Include="CSS\Estilos.css" />
+    <Content Include="default.aspx" />
     <Content Include="Imagenes\a12.png" />
     <Content Include="Imagenes\b05.png" />
     <Content Include="Imagenes\Clientes\bgh-logo.jpg" />
@@ -120,6 +121,13 @@
     </Compile>
     <Compile Include="Contacto.aspx.vb">
       <DependentUpon>Contacto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Index.aspx.designer.vb">
