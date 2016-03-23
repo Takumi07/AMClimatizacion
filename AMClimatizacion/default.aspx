@@ -1,15 +1,11 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Maestra.Master" CodeBehind="default.aspx.vb" Inherits="AMClimatizacion._default" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="contenidoPagina" runat="server">
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="default.aspx.vb" Inherits="AMClimatizacion._default1" %>
 
+<!DOCTYPE html>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <img src="Imagenes/enConstruccion.png" class="img-responsive center-block" />
-            </div>
-        </div>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+</head>
 
-    </div>
-</asp:Content>
+</html>

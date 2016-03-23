@@ -11,5 +11,5 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class _default1
+Partial Public Class _default
 End Class
