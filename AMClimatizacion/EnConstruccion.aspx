@@ -17,74 +17,22 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="row borde">
-                        <div class="col-md-5 logoEmpresa" style="height: 100%;">
-                            <img class="Logo" src="Imagenes/Logo AM Climatizacion.png" />
+                        <div class="col-md-5 logoEmpresa">
+                            <img class="Logo" src="Imagenes/Logo AM Climatizacion.png" class="img-responsive" />
                         </div>
-                        <div class="col-md-5 col-md-offset-1">
+                        <div class="col-md-4 col-md-offset-3">
 
-                            <div class="row miLabel">
-
-                                <div class="col-md-10 col-md-offset-2 text-right">
-                                    am.climatizacion@ciudad.com.ar
-                                </div>
-
-
-                            </div>
-                            <div class="row miLabel">
-
-                                <div class="col-md-10 col-md-offset-2 text-right">
-                                    Teléfono: 4220-2569
-                                </div>
-
-
-
-                            </div>
-                            <div class="row miLabel">
-
-                                <div class="col-md-10 col-md-offset-2 text-right">
-                                    Celular: 15-5343-4284
-                                </div>
-
-                            </div>
-                            <div class="row miLabel">
-
-                                <div class="col-md-10 col-md-offset-2 text-right">
-                                    Celular: 15-2017-4983
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-1">
-                            <div class="row miLabel">
-                                <div class="col-md-2">
-                                    <img class="icon left" src="Imagenes/mail.png" />
-                                </div>
-                            </div>
-                            <div class="row miLabel">
-                                <div class="col-md-2">
-                                    <img class="icon left" src="Imagenes/telefono.png" />
-                                </div>
-                            </div>
-                            <div class="row miLabel">
-                                <div class="col-md-2">
-                                    <img class="icon left" src="Imagenes/celular.png" />
-                                </div>
-                            </div>
-                            <div class="row miLabel">
-                                <div class="col-md-2">
-                                    <img class="icon left" src="Imagenes/celular.png" />
-                                </div>
+                            <div class="row right">
+                                <address style="padding-top:10px ">
+                                    <img class="icon left" src="Imagenes/mail.png" class="img-responsive" />am.climatizacion@ciudad.com.ar<br />
+                                    <img class="icon left" src="Imagenes/telefono.png" class="img-responsive" />Teléfono: 4220-2569<br />
+                                    <img class="icon left" src="Imagenes/celular.png" class="img-responsive" />Celular: 15-5343-4284<br />
+                                    <img class="icon left" src="Imagenes/celular.png" class="img-responsive" />Celular: 15-2017-4983<br />
+                                </address>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row fondoGris">
-                        <div class="col-md-5 col-md-offset-7">
-                        </div>
-                    </div>
-
-                    <div class="row">
-                    </div>
-                    <br />
                     <div class="row">
                         <div class="col-md-12">
 
@@ -93,8 +41,8 @@
                                     <div class="col-md-12">
                                         <img src="Imagenes/enConstruccion.png" class="img-responsive center-block" />
                                     </div>
-                               </div>
-                           </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
