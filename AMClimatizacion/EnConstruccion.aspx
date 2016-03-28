@@ -25,7 +25,7 @@
                             <div class="row right">
                                 <address style="padding-top:10px ">
                                     <img class="icon left" src="Imagenes/mail.png" class="img-responsive" />am.climatizacion@ciudad.com.ar<br />
-                                    <img class="icon left" src="Imagenes/telefono.png" class="img-responsive" />Teléfono: 4220-2569<br />
+                                    <img class="icon left" src="Imagenes/telefono.png" class="img-responsive" />Teléfono: 4224-3469<br />
                                     <img class="icon left" src="Imagenes/celular.png" class="img-responsive" />Celular: 15-5343-4284<br />
                                     <img class="icon left" src="Imagenes/celular.png" class="img-responsive" />Celular: 15-2017-4983<br />
                                 </address>
