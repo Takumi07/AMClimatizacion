@@ -87,12 +87,16 @@
     <Content Include="default.aspx" />
     <Content Include="default2.aspx" />
     <Content Include="EnConstruccion.aspx" />
+    <Content Include="enConstruccion2.aspx" />
+    <Content Include="enConstruccion3.aspx" />
     <Content Include="Imagenes\a12.png" />
     <Content Include="Imagenes\b05.png" />
     <Content Include="Imagenes\Clientes\bgh-logo.jpg" />
     <Content Include="Imagenes\Clientes\Daikin Logo.png" />
     <Content Include="Imagenes\Clientes\LG Logo.gif" />
     <Content Include="Imagenes\Clientes\Logo-Surrey.jpg" />
+    <Content Include="Imagenes\FondoNieveBlanco.png" />
+    <Content Include="Imagenes\FondoNieveNegro.png" />
     <Content Include="Imagenes\ImagenesSlide\Slider1.jpg" />
     <Content Include="Imagenes\ImagenesSlide\Slider2.jpg" />
     <Content Include="Imagenes\ImagenesSlide\Slider3.jpg" />
@@ -144,6 +148,20 @@
     </Compile>
     <Compile Include="EnConstruccion.aspx.vb">
       <DependentUpon>EnConstruccion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="enConstruccion2.aspx.designer.vb">
+      <DependentUpon>enConstruccion2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="enConstruccion2.aspx.vb">
+      <DependentUpon>enConstruccion2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="enConstruccion3.aspx.designer.vb">
+      <DependentUpon>enConstruccion3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="enConstruccion3.aspx.vb">
+      <DependentUpon>enConstruccion3.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Index.aspx.designer.vb">
