@@ -4,19 +4,8 @@ color:white;
 height:100%;
 }
 
-.fondoNegro {
-background-color:#000000;
-
-}
-
-.fondoBlanco {
-background-color:#ffffff;
-
-}
-
-.fondoColor {
-background-color:#3999F0;
-
+.fondoBody {
+background-color:#DBEEF9;
 }
 
 .fondoAzul {
@@ -26,10 +15,10 @@ background-color:#4EACDC;
 
 .fondoDegradado {
   background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, #4EACDC, #2483D7, #184FB4); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #4EACDC, #2483D7, #184FB4); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #4EACDC, #2483D7, #184FB4); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #4EACDC, #2483D7, #184FB4); /* Standard syntax */
+  background: -webkit-linear-gradient(left top, #4EACDC, #2483D7, #5CACE7); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #4EACDC, #2483D7, #5CACE7); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #4EACDC, #2483D7, #5CACE7); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #4EACDC, #2483D7, #5CACE7); /* Standard syntax */
 }
 
 

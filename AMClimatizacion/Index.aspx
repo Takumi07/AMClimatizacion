@@ -7,6 +7,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="contenidoPagina" runat="server">
     <br />
+    <br />
+    <br />
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
@@ -136,5 +138,7 @@
                 </div>
     </div>
    
-
+        <br />
+    <br />
+    <br />
 </asp:Content>
