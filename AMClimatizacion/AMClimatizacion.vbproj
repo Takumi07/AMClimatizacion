@@ -84,6 +84,7 @@
     <Content Include="Contacto.aspx" />
     <Content Include="CSS\bootstrap.css" />
     <Content Include="CSS\Estilos.css" />
+    <Content Include="CSS\EstiloMenu.css" />
     <Content Include="default.aspx" />
     <Content Include="Imagenes\a12.png" />
     <Content Include="Imagenes\b05.png" />
@@ -111,6 +112,7 @@
     <Content Include="JS\jquery-1.9.1.min.js" />
     <Content Include="JS\jssor.js" />
     <Content Include="JS\jssor.slider.js" />
+    <Content Include="JS\Menu.js" />
     <Content Include="JS\slideshow.js" />
     <Content Include="NuestraEmpresa.aspx" />
     <Content Include="NuestrosClientes.aspx" />

@@ -7,16 +7,17 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="CSS/Estilos.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/EstiloMenu.css" />
+    <script type="text/javascript" src="JS/Menu.js"></script>
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body >
+<body>
     <form id="form4" runat="server">
-        <br />
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-10 col-md-offset-1">
+                <div class="col-md-12">
 
                     <div class="row borde fondoDegradado">
                         <br />
@@ -36,41 +37,25 @@
                         </div>
                     </div>
 
-                    <div class="row fondoBlanco borde">
+                    <div class="row fondoGris">
                         <div class="col-md-12">
-
-                            <div class="row fondoGris">
-                                <div class="col-md-5 col-md-offset-7">
-                                    <asp:Menu ID="Menu2" runat="server" Orientation="Horizontal" ForeColor="White" Font-Names="Estrangelo Edessa" Height="35px" Font-Size="16PX">
-                                        <StaticSelectedStyle BackColor="#FFFFFF" />
-                                        <StaticMenuItemStyle HorizontalPadding="12px" VerticalPadding="6px" />
-                                        <StaticHoverStyle BackColor="#FFFFFF" ForeColor="#333333" />
-                                        <DynamicHoverStyle BackColor="#FFFFFF" ForeColor="#333333" />
-                                        <DynamicMenuStyle BackColor="#00919E" />
-                                        <DynamicSelectedStyle BackColor="#00919E" />
-                                        <DynamicMenuItemStyle HorizontalPadding="12px" VerticalPadding="6px" />
-
-                                        <Items>
-
-                                            <asp:MenuItem Text="Inicio" Value="Inicio" NavigateUrl="~/Index.aspx"></asp:MenuItem>
-                                            <asp:MenuItem Text="Nuestra Empresa" Value="Nuestra Empresa" NavigateUrl="~/NuestraEmpresa.aspx"></asp:MenuItem>
-                                            <asp:MenuItem Text="Nuestros Clientes" Value="Nuestros Clientes" NavigateUrl="~/NuestrosClientes.aspx"></asp:MenuItem>
-                                            <asp:MenuItem Text="Contacto" Value="Contacto" NavigateUrl="~/Contacto.aspx"></asp:MenuItem>
-
-                                        </Items>
-
-                                    </asp:Menu>
-                                </div>
+                            <div id='cssmenu'>
+                                <ul>
+                                    <li><a href='#'><span>Contacto</span></a></li>
+                                    <li><a href='#'><span>Nuestros Clientes</span></a></li>
+                                    <li><a href='#'><span>Nuestra Empresa</span></a></li>
+                                    <li><a href='#'><span>Inicio</span></a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+
+                    <div class="row fondoBody">
                         <div class="col-md-12">
                             <asp:ContentPlaceHolder ID="contenidoPagina" runat="server"></asp:ContentPlaceHolder>
                         </div>
                     </div>
-                    <br />
-                     <br />
+
                     <div class="row borde fondoAzul">
                         <div class="col-md-12">
 
@@ -86,8 +71,7 @@
                 </div>
 
             </div>
-            <br />
-            </div>
+        </div>
     </form>
 </body>
 </html>
