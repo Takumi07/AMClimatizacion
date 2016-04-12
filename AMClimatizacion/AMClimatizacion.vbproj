@@ -114,6 +114,7 @@
     <Content Include="JS\slideshow.js" />
     <Content Include="NuestraEmpresa.aspx" />
     <Content Include="NuestrosClientes.aspx" />
+    <Content Include="SubirImagenes.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -176,6 +177,13 @@
     </Compile>
     <Compile Include="NuestrosClientes.aspx.vb">
       <DependentUpon>NuestrosClientes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SubirImagenes.aspx.designer.vb">
+      <DependentUpon>SubirImagenes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SubirImagenes.aspx.vb">
+      <DependentUpon>SubirImagenes.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
