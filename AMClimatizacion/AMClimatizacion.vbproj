@@ -85,10 +85,6 @@
     <Content Include="CSS\bootstrap.css" />
     <Content Include="CSS\Estilos.css" />
     <Content Include="default.aspx" />
-    <Content Include="default2.aspx" />
-    <Content Include="EnConstruccion.aspx" />
-    <Content Include="enConstruccion2.aspx" />
-    <Content Include="enConstruccion3.aspx" />
     <Content Include="Imagenes\a12.png" />
     <Content Include="Imagenes\b05.png" />
     <Content Include="Imagenes\Clientes\bgh-logo.jpg" />
@@ -118,7 +114,6 @@
     <Content Include="JS\slideshow.js" />
     <Content Include="NuestraEmpresa.aspx" />
     <Content Include="NuestrosClientes.aspx" />
-    <Content Include="test.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -134,34 +129,6 @@
     </Compile>
     <Compile Include="default.aspx.vb">
       <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="default2.aspx.designer.vb">
-      <DependentUpon>default2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="default2.aspx.vb">
-      <DependentUpon>default2.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="EnConstruccion.aspx.designer.vb">
-      <DependentUpon>EnConstruccion.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="EnConstruccion.aspx.vb">
-      <DependentUpon>EnConstruccion.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="enConstruccion2.aspx.designer.vb">
-      <DependentUpon>enConstruccion2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="enConstruccion2.aspx.vb">
-      <DependentUpon>enConstruccion2.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="enConstruccion3.aspx.designer.vb">
-      <DependentUpon>enConstruccion3.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="enConstruccion3.aspx.vb">
-      <DependentUpon>enConstruccion3.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Index.aspx.designer.vb">
@@ -209,13 +176,6 @@
     </Compile>
     <Compile Include="NuestrosClientes.aspx.vb">
       <DependentUpon>NuestrosClientes.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="test.aspx.designer.vb">
-      <DependentUpon>test.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="test.aspx.vb">
-      <DependentUpon>test.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>

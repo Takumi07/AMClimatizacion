@@ -1,5 +1,5 @@
 ﻿.fondoGris {
-background-color:#808080;
+background-color:#3E3F41;
 color:white;
 height:100%;
 }
@@ -15,8 +15,21 @@ background-color:#ffffff;
 }
 
 .fondoColor {
-background-color:#4C4B4B;
+background-color:#3999F0;
 
+}
+
+.fondoAzul {
+background-color:#4EACDC;
+
+}
+
+.fondoDegradado {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #4EACDC, #2483D7, #184FB4); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #4EACDC, #2483D7, #184FB4); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #4EACDC, #2483D7, #184FB4); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #4EACDC, #2483D7, #184FB4); /* Standard syntax */
 }
 
 
@@ -73,19 +86,18 @@ background-color:#E3EAEB;
 .miLabelAddress {
 text-align:right;
 font-size:16px;
-font-weight:bold;
 padding-right:10px;
 padding-top:2px;
 font-family:'Estrangelo Edessa';
-color:black;
+color:white;
+border:1px;
 }
 
 .miLabelCopyright {
 text-align:center;
 font-size:18px;
-font-weight:bold;
 font-family:'Estrangelo Edessa';
-color:black;
+color:white;
 }
 
 

@@ -23,13 +23,13 @@ Partial Public Class Maestra
     Protected WithEvents head As Global.System.Web.UI.WebControls.ContentPlaceHolder
 
     '''<summary>
-    '''Control form2.
+    '''Control form4.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents form2 As Global.System.Web.UI.HtmlControls.HtmlForm
+    Protected WithEvents form4 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
     '''Control Menu2.
@@ -39,15 +39,6 @@ Partial Public Class Maestra
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Menu2 As Global.System.Web.UI.WebControls.Menu
-
-    '''<summary>
-    '''Control Menu1.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents Menu1 As Global.System.Web.UI.WebControls.Menu
 
     '''<summary>
     '''Control contenidoPagina.
