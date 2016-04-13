@@ -43,8 +43,8 @@
                                 <ul>
                                     <li><a href='#'><span>Contacto</span></a></li>
                                     <li><a href='#'><span>Nuestros Clientes</span></a></li>
-                                    <li><a href='#'><span>Nuestra Empresa</span></a></li>
-                                    <li><a href='#'><span>Inicio</span></a></li>
+                                    <li><a href='nuestraEmpresa.aspx'><span>Nuestra Empresa</span></a></li>
+                                    <li><a href='index.aspx'><span>Inicio</span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -62,7 +62,7 @@
                             <div class="container-fluid">
                                 <div class="row miLabelCopyright" style="height: 35px; margin-top: 1%">
                                     <div class="col-md-12">
-                                        <div>Copyright 2016</div>
+                                        <div>AM Climatización - Copyright 2016</div>
                                     </div>
                                 </div>
                             </div>

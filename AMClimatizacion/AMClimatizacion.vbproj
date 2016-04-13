@@ -106,8 +106,10 @@
     <Content Include="Imagenes\loading.gif" />
     <Content Include="Imagenes\Logo AM Climatizacion.jpg" />
     <Content Include="Imagenes\Logo AM Climatizacion.png" />
-    <Content Include="Imagenes\RedesSociales\Facebook.png" />
-    <Content Include="Imagenes\RedesSociales\twitter.png" />
+    <Content Include="Imagenes\RedesSociales\FaceBook_64x64.png" />
+    <Content Include="Imagenes\RedesSociales\jobbank.png" />
+    <Content Include="Imagenes\RedesSociales\Twitter_64x64.png" />
+    <Content Include="Imagenes\RedesSociales\Youtube_128x128.png" />
     <Content Include="Index.aspx" />
     <Content Include="JS\jquery-1.9.1.min.js" />
     <Content Include="JS\jssor.js" />

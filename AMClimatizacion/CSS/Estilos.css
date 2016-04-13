@@ -1,65 +1,63 @@
 ﻿.fondoGris {
-background-color:#3E3F41;
-color:white;
-height:100%;
+    background-color: #3E3F41;
+    color: white;
+    height: 100%;
 }
 
 .fondoBody {
-background-color:#DBEEF9;
+    background-color: #DBEEF9;
 }
 
 .fondoAzul {
-background-color:#4EACDC;
-
+    background-color: #3B99D9;
 }
 
 .fondoDegradado {
-  background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, #4EACDC, #2483D7, #5CACE7); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #4EACDC, #2483D7, #5CACE7); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #4EACDC, #2483D7, #5CACE7); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #4EACDC, #2483D7, #5CACE7); /* Standard syntax */
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #4EACDC, #2483D7, #5CACE7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #4EACDC, #2483D7, #5CACE7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #4EACDC, #2483D7, #5CACE7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #4EACDC, #2483D7, #5CACE7); /* Standard syntax */
 }
 
 
 /*AGREGADO DE ALEXIS*/
-.Logo{
-padding-left: 0%;
-width: 100%; 
-padding-top:3%;
-height:100%;
+.Logo {
+    padding-left: 0%;
+    width: 100%;
+    padding-top: 3%;
+    height: 100%;
 }
 
-.MenuHorizontal{
-background-color:gray;
-text-decoration-color: white;
-float: right;
+.MenuHorizontal {
+    background-color: gray;
+    text-decoration-color: white;
+    float: right;
 }
 
-.TextoJustificado{
+.TextoJustificado {
     text-align: justify;
 }
 
-.LogoClientes{
-padding-left: 0%;
-width: 150px; 
-height: 50px;
-border: black 2px solid;
+.LogoClientes {
+    padding-left: 0%;
+    width: 150px;
+    height: 50px;
+    border: black 2px solid;
 }
 
-.NoEditable{
-resize: none;
+.NoEditable {
+    resize: none;
 }
 
 .borde {
-border-style:solid;
-border-color:#000000;
-border-width:3px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 3px;
 }
 
 .fondotest {
-background-color:#E3EAEB;
-
+    background-color: #E3EAEB;
 }
 
 .miLabel {
@@ -72,58 +70,121 @@ background-color:#E3EAEB;
     color: white;
 }
 
+.miLabelNegra {
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-top: 2px;
+    font-family: 'Estrangelo Edessa';
+    color: white;
+}
+
 .miLabelAddress {
-text-align:right;
-font-size:16px;
-padding-right:10px;
-padding-top:2px;
-font-family:'Estrangelo Edessa';
-color:white;
-border:1px;
+    text-align: right;
+    font-size: 16px;
+    padding-right: 10px;
+    padding-top: 2px;
+    font-family: 'Estrangelo Edessa';
+    color: white;
+    border: 1px;
 }
 
 .miLabelCopyright {
-text-align:center;
-font-size:18px;
-font-family:'Estrangelo Edessa';
-color:white;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Estrangelo Edessa';
+    color: white;
 }
 
+.miLabelTitulos {
+    font-size: 26px;
+    font-family: 'Estrangelo Edessa';
+    color: #2886D8;
+    font-weight: bold;
+    text-align: center;
+}
 
 itemMenu {
-margin-left:40px;
-width:100%;
+    margin-left: 40px;
+    width: 100%;
 }
 
 .bordePagina {
-border-style:solid;
-border-color:#808080;
-border-width:4px;
+    border-style: solid;
+    border-color: #808080;
+    border-width: 4px;
 }
 
 
 .panel-Clima {
-  border-color: #363435;
+    border-color: #363435;
 }
-.panel-Clima > .panel-heading {
-  color: #fff;
-  background-color: #363435;
-  border-color: #337ab7;
-}
-.panel-Clima > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #337ab7;
-}
-.panel-Clima > .panel-heading .badge {
-  color: #337ab7;
-  background-color: #fff;
-}
-.panel-Clima > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #337ab7;
-}
+
+    .panel-Clima > .panel-heading {
+        color: #fff;
+        background-color: #363435;
+        border-color: #337ab7;
+    }
+
+        .panel-Clima > .panel-heading + .panel-collapse > .panel-body {
+            border-top-color: #337ab7;
+        }
+
+        .panel-Clima > .panel-heading .badge {
+            color: #337ab7;
+            background-color: #fff;
+        }
+
+    .panel-Clima > .panel-footer + .panel-collapse > .panel-body {
+        border-bottom-color: #337ab7;
+    }
 
 .icon {
-width:20px;
-height:20px;
-MARGIN-right:5px;
+    width: 20px;
+    height: 20px;
+    MARGIN-right: 5px;
+}
 
+
+
+.panelBoton {
+    margin-bottom: 20px;
+    background-color: #DBEEF9;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    text-align: center;
+}
+
+    .panelBoton:hover {
+        background-color: #B5DBF2;
+    }
+
+.panelBoton-imagen {
+    padding-top: 40px;
+    padding-bottom: 15px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.panelBoton-titulo {
+    font-family: "Cooper Black";
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.panelBoton-texto {
+    font-family: "Century";
+    font-size: 18px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
