@@ -106,6 +106,7 @@
     <Content Include="Imagenes\loading.gif" />
     <Content Include="Imagenes\Logo AM Climatizacion.jpg" />
     <Content Include="Imagenes\Logo AM Climatizacion.png" />
+    <Content Include="Imagenes\Logo.png" />
     <Content Include="Imagenes\RedesSociales\FaceBook_64x64.png" />
     <Content Include="Imagenes\RedesSociales\jobbank.png" />
     <Content Include="Imagenes\RedesSociales\Twitter_64x64.png" />
