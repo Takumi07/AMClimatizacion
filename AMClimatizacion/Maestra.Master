@@ -42,8 +42,8 @@
                         <div class="col-md-12">
                             <div id='cssmenu'>
                                 <ul>
-                                    <li><a href='#'><span>Contacto</span></a></li>
-                                    <li><a href='#'><span>Nuestros Clientes</span></a></li>
+                                    <li><a href='contacto.aspx'><span>Contacto</span></a></li>
+                                    <li><a href='nuestrosClientes.aspx'><span>Nuestros Clientes</span></a></li>
                                     <li><a href='nuestraEmpresa.aspx'><span>Nuestra Empresa</span></a></li>
                                     <li><a href='index.aspx'><span>Inicio</span></a></li>
                                 </ul>
@@ -57,7 +57,7 @@
                         </div>
                     </div>
 
-                    <div class="row borde fondoAzul">
+                    <div class="row bordeFino fondoAzul">
                         <div class="col-md-12">
 
                             <div class="container-fluid">

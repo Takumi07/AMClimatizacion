@@ -53,7 +53,13 @@
 .borde {
     border-style: solid;
     border-color: #000000;
-    border-width: 3px;
+    border-width: 3px;  
+}
+
+.bordeFino {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;  
 }
 
 .fondotest {
@@ -123,8 +129,12 @@ itemMenu {
 
     .panel-Clima > .panel-heading {
         color: #fff;
-        background-color: #363435;
+        background-color: #3493D9;
         border-color: #337ab7;
+        text-align: center;
+        font-family: "Century";
+        text-transform: uppercase;
+        font-weight: bold;
     }
 
         .panel-Clima > .panel-heading + .panel-collapse > .panel-body {
@@ -138,6 +148,12 @@ itemMenu {
 
     .panel-Clima > .panel-footer + .panel-collapse > .panel-body {
         border-bottom-color: #337ab7;
+    }
+
+    .panel-Clima > .panel-body {
+        padding-top:25px;
+        font-family: "Century";
+        font-size: 18px;
     }
 
 .icon {
