@@ -188,11 +188,11 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="panelBoton">
+                <a href="nuestrosTrabajos.aspx"><div class="panelBoton">
                     <img src="Imagenes/RedesSociales/jobbank.png" class="img-responsive panelBoton-imagen" />
                     <div class="panelBoton-titulo">Trabajos Realizados</div>
                     <div class="panelBoton-texto">Conoce nuestra experiencia accediendo a información e imagenes actualizadas de todos los trabajos realizados por AM Climatización.</div>
-                </div>
+                </div></a>
             </div>
         </div>
 

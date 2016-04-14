@@ -43,6 +43,7 @@
                             <div id='cssmenu'>
                                 <ul>
                                     <li><a href='contacto.aspx'><span>Contacto</span></a></li>
+                                    <li><a href='nuestrosTrabajos.aspx'><span>Nuestros Trabajos</span></a></li>
                                     <li><a href='nuestrosClientes.aspx'><span>Nuestros Clientes</span></a></li>
                                     <li><a href='nuestraEmpresa.aspx'><span>Nuestra Empresa</span></a></li>
                                     <li><a href='index.aspx'><span>Inicio</span></a></li>

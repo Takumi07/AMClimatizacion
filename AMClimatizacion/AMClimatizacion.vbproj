@@ -85,6 +85,7 @@
     <Content Include="CSS\bootstrap.css" />
     <Content Include="CSS\Estilos.css" />
     <Content Include="CSS\EstiloMenu.css" />
+    <Content Include="CSS\estiloSliderGaleria.css" />
     <Content Include="default.aspx" />
     <Content Include="Imagenes\a12.png" />
     <Content Include="Imagenes\b05.png" />
@@ -111,14 +112,49 @@
     <Content Include="Imagenes\RedesSociales\jobbank.png" />
     <Content Include="Imagenes\RedesSociales\Twitter_64x64.png" />
     <Content Include="Imagenes\RedesSociales\Youtube_128x128.png" />
+    <Content Include="img\01.jpg" />
+    <Content Include="img\02.jpg" />
+    <Content Include="img\03.jpg" />
+    <Content Include="img\04.jpg" />
+    <Content Include="img\05.jpg" />
+    <Content Include="img\06.jpg" />
+    <Content Include="img\07.jpg" />
+    <Content Include="img\08.jpg" />
+    <Content Include="img\09.jpg" />
+    <Content Include="img\10.jpg" />
+    <Content Include="img\11.jpg" />
+    <Content Include="img\12.jpg" />
+    <Content Include="img\13.jpg" />
+    <Content Include="img\14.jpg" />
+    <Content Include="img\a17.png" />
+    <Content Include="img\loading.gif" />
+    <Content Include="img\t01.png" />
+    <Content Include="img\thumb-01.jpg" />
+    <Content Include="img\thumb-02.jpg" />
+    <Content Include="img\thumb-03.jpg" />
+    <Content Include="img\thumb-04.jpg" />
+    <Content Include="img\thumb-05.jpg" />
+    <Content Include="img\thumb-06.jpg" />
+    <Content Include="img\thumb-07.jpg" />
+    <Content Include="img\thumb-08.jpg" />
+    <Content Include="img\thumb-09.jpg" />
+    <Content Include="img\thumb-10.jpg" />
+    <Content Include="img\thumb-11.jpg" />
+    <Content Include="img\thumb-12.jpg" />
+    <Content Include="img\thumb-13.jpg" />
+    <Content Include="img\thumb-14.jpg" />
     <Content Include="Index.aspx" />
     <Content Include="JS\jquery-1.9.1.min.js" />
     <Content Include="JS\jssor.js" />
+    <Content Include="JS\jssor.slider.debug.js" />
     <Content Include="JS\jssor.slider.js" />
+    <Content Include="JS\jssor.slider.min.js" />
+    <Content Include="JS\jssor.slider.mini.js" />
     <Content Include="JS\Menu.js" />
     <Content Include="JS\slideshow.js" />
     <Content Include="NuestraEmpresa.aspx" />
     <Content Include="NuestrosClientes.aspx" />
+    <Content Include="nuestrosTrabajos.aspx" />
     <Content Include="SubirImagenes.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -184,6 +220,13 @@
       <DependentUpon>NuestrosClientes.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="nuestrosTrabajos.aspx.designer.vb">
+      <DependentUpon>nuestrosTrabajos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nuestrosTrabajos.aspx.vb">
+      <DependentUpon>nuestrosTrabajos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="SubirImagenes.aspx.designer.vb">
       <DependentUpon>SubirImagenes.aspx</DependentUpon>
     </Compile>
@@ -242,7 +285,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>53926</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
