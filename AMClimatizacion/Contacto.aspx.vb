@@ -5,4 +5,18 @@
 
     End Sub
 
+    Protected Sub btn_Enviar_Click(sender As Object, e As EventArgs) Handles btn_Enviar.Click
+        Try
+            Validaciones.validarSubmit(Me, Me.Error, Me.lbl_TituloError)
+            BLL.MailingBLL.enviarMailContacto(txt_correo.Text, txt_nomape.Text, txt_telefono.Text, mensaje.Value)
+
+        Catch ex As BLL.CamposincompletosException
+            Me.error.Visible = True
+            Me.lbl_TituloError.Text = ex.Mensaje
+        Catch ex As Exception
+            Throw ex
+        End Try
+
+
+    End Sub
 End Class
