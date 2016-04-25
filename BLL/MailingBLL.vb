@@ -18,7 +18,7 @@
             Dim smtp As New System.Net.Mail.SmtpClient
             smtp.Host = "smtp.gmail.com"
             smtp.Port = 587
-            smtp.Credentials = New System.Net.NetworkCredential("ALEXIS.TAKUMI@GMAIL.COM", "TAKUMI35170288")
+            smtp.Credentials = New System.Net.NetworkCredential("ALEXIS.TAKUMI@GMAIL.COM", BLL.EncriptarBLL.Desencriptar("30EEB8480255E161AFEC304209B26DFE"))
             smtp.EnableSsl = True
             smtp.Send(Correo)
         Catch ex As Exception
