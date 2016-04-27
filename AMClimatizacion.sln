@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AMClimatizacion", "AMClimatizacion\AMClimatizacion.vbproj", "{DB11E2B1-AC27-4083-B6A0-7DACEA6B65B4}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BLL", "BLL\BLL.vbproj", "{56AB8DD2-AB60-4737-977A-5D1CE7C82B8D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Entidades", "Entidades\Entidades.vbproj", "{BF692B58-202D-4764-994E-11B627F13DFB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Mapper", "Mapper\Mapper.vbproj", "{372FEFF8-BC9E-485E-8A10-6AABAFABA1B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{56AB8DD2-AB60-4737-977A-5D1CE7C82B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56AB8DD2-AB60-4737-977A-5D1CE7C82B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56AB8DD2-AB60-4737-977A-5D1CE7C82B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF692B58-202D-4764-994E-11B627F13DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF692B58-202D-4764-994E-11B627F13DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF692B58-202D-4764-994E-11B627F13DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF692B58-202D-4764-994E-11B627F13DFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{372FEFF8-BC9E-485E-8A10-6AABAFABA1B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372FEFF8-BC9E-485E-8A10-6AABAFABA1B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372FEFF8-BC9E-485E-8A10-6AABAFABA1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372FEFF8-BC9E-485E-8A10-6AABAFABA1B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

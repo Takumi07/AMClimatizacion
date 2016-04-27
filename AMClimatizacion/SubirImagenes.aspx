@@ -4,23 +4,23 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="contenidoPagina" runat="server">
     <br />
+    <br />
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-10 col-md-offset-1">
 
                 <div class="panel panel-Clima">
                     <div class="panel-heading">Subir Archivos a la Galería</div>
                     <div class="panel-body">
-                        <br />
+
                         <div class="row">
-                            <div id="error" class="msj-error col-md-8 col-md-offset-2" runat="server" visible="false">
+                            <div id="error" class="well well-lg msj-error col-md-12" runat="server" visible="false">
                                 <asp:Label ID="lbl_TituloError" runat="server"></asp:Label>
                             </div>
                         </div>
                         <br />
-
                         <div class="row">
-                            <div class="col-md-2 col-md-offset-2">
+                            <div class="col-md-3 col-md-offset-2">
                                 Trabajo:
                             </div>
 
@@ -33,8 +33,9 @@
                             </div>
                         </div>
                         <br />
+                        <br />
                         <div class="row">
-                            <div class="col-md-2 col-md-offset-2">
+                            <div class="col-md-3 col-md-offset-2">
                                 Seleccionar Archivos
                             </div>
                             <div class="col-md-5">
@@ -48,9 +49,12 @@
                                 <asp:Button ID="Button1" class="btn btn-primary" runat="server" Text="Subir Archivos" />
                             </div>
                         </div>
+                        <br />
                     </div>
                 </div>
             </div>
         </div>
     </div>
+        <br />
+        <br />
 </asp:Content>

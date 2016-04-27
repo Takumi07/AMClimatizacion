@@ -14,9 +14,7 @@
             Me.error.Visible = True
             Me.lbl_TituloError.Text = ex.Mensaje
         Catch ex As Exception
-            Throw ex
+            Throw ex ' cambiar
         End Try
-
-
     End Sub
 End Class

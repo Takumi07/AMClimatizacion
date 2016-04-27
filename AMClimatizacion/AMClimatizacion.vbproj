@@ -156,6 +156,8 @@
     <Content Include="JS\jssor.slider.mini.js" />
     <Content Include="JS\Menu.js" />
     <Content Include="JS\slideshow.js" />
+    <Content Include="login.aspx" />
+    <Content Include="logout.aspx" />
     <Content Include="NuestraEmpresa.aspx" />
     <Content Include="NuestrosClientes.aspx" />
     <Content Include="nuestrosTrabajos.aspx" />
@@ -183,6 +185,20 @@
     </Compile>
     <Compile Include="Index.aspx.vb">
       <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.designer.vb">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logout.aspx.vb">
+      <DependentUpon>logout.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Maestra.Master.designer.vb">
@@ -273,6 +289,10 @@
     <ProjectReference Include="..\BLL\BLL.vbproj">
       <Project>{56ab8dd2-ab60-4737-977a-5d1ce7c82b8d}</Project>
       <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades\Entidades.vbproj">
+      <Project>{bf692b58-202d-4764-994e-11b627f13dfb}</Project>
+      <Name>Entidades</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

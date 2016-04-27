@@ -11,59 +11,68 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Maestra
+Partial Public Class login
 
     '''<summary>
-    '''Control head.
+    '''Control error.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents head As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents [error] As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
-    '''Control form4.
+    '''Control lbl_TituloError.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents form4 As Global.System.Web.UI.HtmlControls.HtmlForm
+    Protected WithEvents lbl_TituloError As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control subirTrabajos.
+    '''Control txt_nombreUsuario.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents subirTrabajos As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+    Protected WithEvents txt_nombreUsuario As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control Logout.
+    '''Control requerido_txt_nombreUsuario.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Logout As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+    Protected WithEvents requerido_txt_nombreUsuario As Global.System.Web.UI.WebControls.RequiredFieldValidator
 
     '''<summary>
-    '''Control login.
+    '''Control txt_password.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents login As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+    Protected WithEvents txt_password As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control contenidoPagina.
+    '''Control requerido_txt_password.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents contenidoPagina As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents requerido_txt_password As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
+    '''Control btn_Iniciar.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btn_Iniciar As Global.System.Web.UI.WebControls.Button
 End Class

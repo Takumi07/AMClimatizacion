@@ -72,6 +72,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="contenidoPagina" runat="server">
     <br />
     <br />
+    <br />
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">

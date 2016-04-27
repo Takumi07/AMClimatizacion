@@ -7,17 +7,16 @@
     <br />
     <div class="container-fluid">
         <div class="row">
+
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-Clima">
                     <div class="panel-heading">Contacto</div>
                     <div class="panel-body">
-                        <br />
                         <div class="row">
-                            <div id="error" class="msj-error col-md-8 col-md-offset-2" runat="server" visible="false">
+                            <div id="error" class="well well-lg msj-error col-md-12" runat="server" visible="false">
                                 <asp:Label ID="lbl_TituloError" runat="server"></asp:Label>
                             </div>
                         </div>
-                        <br />
 
                         <div class="row">
                             <br />
