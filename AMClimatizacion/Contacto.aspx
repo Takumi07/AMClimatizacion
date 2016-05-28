@@ -20,7 +20,7 @@
 
                         <div class="row">
                             <br />
-                            <div class="col-md-2 col-md-offset-2">
+                            <div class="col-md-3 col-md-offset-2">
                                 Correo
                             </div>
                             <div class="col-md-5">
@@ -35,7 +35,7 @@
                         </div>
                         <br />
                         <div class="row">
-                            <div class="col-md-2 col-md-offset-2">
+                            <div class="col-md-3 col-md-offset-2">
                                 Nombre y Apellido
                             </div>
                             <div class="col-md-5">
@@ -48,7 +48,7 @@
                         </div>
                         <br />
                         <div class="row">
-                            <div class="col-md-2 col-md-offset-2">
+                            <div class="col-md-3 col-md-offset-2">
                                 Teléfono
                             </div>
                             <div class="col-md-5">
@@ -61,7 +61,7 @@
                         </div>
                         <br />
                         <div class="row">
-                            <div class="col-md-2 col-md-offset-2">
+                            <div class="col-md-3 col-md-offset-2">
                                 Mensaje
                             </div>
                             <div class="col-md-5">
@@ -75,7 +75,7 @@
                         <br />
                         <div class="row">
                             <br />
-                            <div class="col-md-2 col-md-offset-5">
+                            <div class="col-md-4 col-md-offset-4">
                                 <asp:Button ID="btn_Enviar" runat="server" Text="Enviar" CssClass="btn btn-block btn-primary" />
                             </div>
                         </div>

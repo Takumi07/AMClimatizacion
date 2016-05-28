@@ -7,7 +7,6 @@
     <br />
     <div class="container-fluid">
         <div class="row">
-
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-Clima">
                     <div class="panel-heading">Autenticación</div>
@@ -23,7 +22,7 @@
                             <div class="col-md-2 col-md-offset-2">
                                 Usuario
                             </div>
-                            <div class="col-md-5">
+                            <div class="col-md-6">
                                 <asp:TextBox ID="txt_nombreUsuario" class="form-control" placeholder="Usuario" runat="server"></asp:TextBox>
                             </div>
                             <div class="col-md-1">
@@ -36,7 +35,7 @@
                             <div class="col-md-2 col-md-offset-2">
                                 Contraseña
                             </div>
-                            <div class="col-md-5">
+                            <div class="col-md-6">
                                 <asp:TextBox ID="txt_password" class="form-control" placeholder="Contraseña" runat="server" TextMode="Password"></asp:TextBox>
                             </div>
                             <div class="col-md-1">
@@ -47,16 +46,18 @@
                         <br />
                         <div class="row">
                             <br />
-                            <div class="col-md-2 col-md-offset-5">
+                            <div class="col-md-4 col-md-offset-4">
                                 <asp:Button ID="btn_Iniciar" runat="server" Text="Iniciar Sesión" CssClass="btn btn-block btn-primary" />
                             </div>
+                            <br />
                         </div>
-                        <br />
-                        <br />
-                        <br />
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
+    <br />
+    <br />
+    <br />
 </asp:Content>

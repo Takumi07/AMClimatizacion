@@ -77,101 +77,61 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <div class="row">
-                 <div class="col-md-2 col-md-offset-2">
-                                Trabajos
-                            </div>
-
-                            <div class="col-md-6">
-                                <asp:DropDownList ID="dbl_trabajos" CssClass="form-control" AutoPostBack="true" runat="server"></asp:DropDownList>
-                            </div>
-                    </div>
-                <br />
-                <br />
-                <!-- #region Jssor Slider Begin -->
-                <div id="jssor_1" class="embed-responsive" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 800px; height: 480px; overflow: hidden;  background-color: #24262e;">
-                    <div id="slides" data-u="slides" runat="server" style="cursor: default; position: relative; top: 0px; left: 240px; width: 720px; height: 480px; overflow: hidden;">
-                    
-                        <div data-p="150.00" runat="server" >
-                            <img data-u="image" src="img/01.jpg" />
-                            <img data-u="thumb" src="img/thumb-01.jpg" />
-                        </div>
-                        <div data-p="150.00" runat="server">
-                            <img data-u="image" src="img/02.jpg" />
-                            <img data-u="thumb" src="img/thumb-02.jpg" />
-                        </div>
-                        <div data-p="150.00" runat="server" >
-                            <img data-u="image" src="img/03.jpg" />
-                            <img data-u="thumb" src="img/thumb-03.jpg" />
-                        </div>
-                        <div data-p="150.00" runat="server" >
-                            <img data-u="image" src="img/04.jpg" />
-                            <img data-u="thumb" src="img/thumb-04.jpg" />
-                        </div>
-                        <div data-p="150.00" runat="server" >
-                            <img data-u="image" src="img/05.jpg" />
-                            <img data-u="thumb" src="img/thumb-05.jpg" />
-                        </div>
-                        <div data-p="150.00" runat="server" >
-                            <img data-u="image" src="img/06.jpg" />
-                            <img data-u="thumb" src="img/thumb-06.jpg" />
-                        </div>
-                        <div data-p="150.00" runat="server" >
-                            <img data-u="image" src="img/07.jpg" />
-                            <img data-u="thumb" src="img/thumb-07.jpg" />
-                        </div>
-                        <div data-p="150.00" runat="server" >
-                            <img data-u="image" src="img/08.jpg" />
-                            <img data-u="thumb" src="img/thumb-08.jpg" />
-                        </div>
-                        <div data-p="150.00" runat="server">
-                            <img data-u="image" src="img/09.jpg" />
-                            <img data-u="thumb" src="img/thumb-09.jpg" />
-                        </div>
-                        <div data-p="150.00" runat="server" >
-                            <img data-u="image" src="img/10.jpg" />
-                            <img data-u="thumb" src="img/thumb-10.jpg" />
-                        </div>
-                        <div data-p="150.00" runat="server" >
-                            <img data-u="image" src="img/11.jpg" />
-                            <img data-u="thumb" src="img/thumb-11.jpg" />
-                        </div>
-                        <div data-p="150.00" runat="server" >
-                            <img data-u="image" src="img/12.jpg" />
-                            <img data-u="thumb" src="img/thumb-12.jpg" />
-                        </div>
-                        <div data-p="150.00" runat="server" >
-                            <img data-u="image" src="img/13.jpg" />
-                            <img data-u="thumb" src="img/thumb-13.jpg" />
-                        </div>
-                        <div data-p="150.00" runat="server">
-                            <img data-u="image" src="img/14.jpg" />
-                            <img data-u="thumb" src="img/thumb-14.jpg" />
-                        </div>
-
-                    </div>
-                    <!-- Thumbnail Navigator -->
-                    <div data-u="thumbnavigator" class="jssort01-99-66" style="position: absolute; left: 0px; top: 0px; width: 240px; height: 480px;" data-autocenter="2">
-                        <!-- Thumbnail Item Skin Begin -->
-                        <div data-u="slides"  style="cursor: default;">
-                            <div data-u="prototype"  class="p">
-                                <div class="w">
-                                    <div data-u="thumbnailtemplate"  class="t"></div>
+                    <div class="panel panel-Clima">
+                        <div class="panel-heading">Nuestros Trabajos</div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-4 col-md-offset-1">
+                                    Seleccione un Trabajo:
                                 </div>
-                                <div class="c" ></div>
+
+                                <div class="col-md-5">
+                                    <asp:DropDownList ID="dbl_trabajos" CssClass="form-control" AutoPostBack="true" runat="server"></asp:DropDownList>
+                                </div>
+                            </div>
+                            <br />
+                            <br />
+                            <div class="row">
+                                <div class="col-md-10 col-md-offset-1">
+
+                                    <!-- #region Jssor Slider Begin -->
+                                    <div id="jssor_1" class="embed-responsive" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 800px; height: 480px; overflow: hidden; background-color: #24262e;">
+                                        <asp:Panel ID="panelImagenes" runat="server">
+
+                                        </asp:Panel>
+                                        <!-- Thumbnail Navigator -->
+                                        <div data-u="thumbnavigator" class="jssort01-99-66" style="position: absolute; left: 0px; top: 0px; width: 240px; height: 480px;" data-autocenter="2">
+                                            <!-- Thumbnail Item Skin Begin -->
+                                            <div data-u="slides" style="cursor: default;">
+                                                <div data-u="prototype" class="p">
+                                                    <div class="w">
+                                                        <div data-u="thumbnailtemplate" class="t"></div>
+                                                    </div>
+                                                    <div class="c"></div>
+                                                </div>
+                                            </div>
+                                            <!-- Thumbnail Item Skin End -->
+                                        </div>
+                                        <!-- Arrow Navigator -->
+                                        <span data-u="arrowleft" class="jssora05l" style="top: 158px; left: 248px; width: 40px; height: 40px;" data-autocenter="2"></span>
+                                        <span data-u="arrowright" class="jssora05r" style="top: 158px; right: 8px; width: 40px; height: 40px;" data-autocenter="2"></span>
+                                    </div>
+
+                                    <!-- #endregion Jssor Slider End -->
+                                </div>
                             </div>
                         </div>
-                        <!-- Thumbnail Item Skin End -->
-                    </div>
-                    <!-- Arrow Navigator -->
-                    <span data-u="arrowleft" class="jssora05l" style="top: 158px; left: 248px; width: 40px; height: 40px;" data-autocenter="2"></span>
-                    <span data-u="arrowright" class="jssora05r" style="top: 158px; right: 8px; width: 40px; height: 40px;" data-autocenter="2"></span>
-                </div>
 
-                <!-- #endregion Jssor Slider End -->
-            </div>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+                <br />
+                <br />
 
             </div>
         </div>
+    </div>
     <br />
     <br />
 </asp:Content>

@@ -44,7 +44,7 @@
                                 <ul>
                                     <li runat="server" id="logout" visible="false"><a href='logout.aspx'><span>Logout</span></a></li>
                                     <li visible="false" runat="server" id="subirTrabajos"><a href='subirImagenes.aspx'><span>Subir Trabajos</span></a></li>
-                                    <li runat="server" id="login"><a href='login.aspx'><span>Login</span></a></li>
+                                    <li runat="server" id="login"><a href='login.aspx'><span>Intranet</span></a></li>
                                     <li><a href='contacto.aspx'><span>Contacto</span></a></li>
                                     <li><a href='nuestrosTrabajos.aspx'><span>Nuestros Trabajos</span></a></li>
                                     <li><a href='nuestrosClientes.aspx'><span>Nuestros Clientes</span></a></li>

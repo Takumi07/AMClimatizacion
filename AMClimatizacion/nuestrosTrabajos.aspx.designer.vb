@@ -23,11 +23,11 @@ Partial Public Class nuestrosTrabajos
     Protected WithEvents dbl_trabajos As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control slides.
+    '''Control panelImagenes.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents slides As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+    Protected WithEvents panelImagenes As Global.System.Web.UI.WebControls.Panel
 End Class
