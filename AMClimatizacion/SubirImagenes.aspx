@@ -18,25 +18,34 @@
                                 <asp:Label ID="lbl_TituloError" runat="server"></asp:Label>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-md-3 col-md-offset-2">
+                                <label>Tipo:</label>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="col-md-6"><asp:RadioButton ID="RadioButton1" GroupName="TipoTrabajo" runat="server" Checked="True" AutoPostBack="true" />Nuevo Trabajo</div>
+                                <div class="col-md-6"><asp:RadioButton ID="RadioButton2" GroupName="TipoTrabajo" runat="server" AutoPostBack="true" />Trabajo Existente</div>
+                            </div>
+                        </div>
+
                         <br />
                         <div class="row">
                             <div class="col-md-3 col-md-offset-2">
-                                Trabajo:
+                                <label>Trabajo:</label>
                             </div>
 
                             <div class="col-md-5">
-                                <asp:TextBox ID="txt_Trabajo" CssClass="form-control" runat="server"></asp:TextBox>
+                                <asp:TextBox ID="txt_Trabajo" CssClass="form-control" runat="server"></asp:TextBox> <asp:DropDownList ID="ddl_trabajos" runat="server" Visible="false" CssClass="form-control"></asp:DropDownList>
                             </div>
                             <div class="col-md-1">
-                                <asp:RequiredFieldValidator ID="requerido_txt_nomape" runat="server"
+                                <asp:RequiredFieldValidator ID="requerido_txt_trabajo" runat="server"
                                     ControlToValidate="txt_Trabajo" ErrorMessage="*" EnableClientScript="false" Display="Dynamic" CssClass="validador"></asp:RequiredFieldValidator>
                             </div>
                         </div>
                         <br />
-                        <br />
                         <div class="row">
                             <div class="col-md-3 col-md-offset-2">
-                                Seleccionar Archivos
+                               <label>Seleccionar Archivos</label>
                             </div>
                             <div class="col-md-5">
                                 <asp:FileUpload ID="FileUp" AllowMultiple="true" runat="server" />

@@ -9,6 +9,14 @@
             dbl_trabajos.DataSource = Informacion
             dbl_trabajos.DataValueField = "Name"
             dbl_trabajos.DataBind()
+            'Traigo los archivos del primer trabajo
+            InformacionDirectorio = New System.IO.DirectoryInfo(System.IO.Path.Combine(Server.MapPath("~/Galeria/"), dbl_trabajos.SelectedValue.ToString))
+            Dim Files() As System.IO.FileInfo = InformacionDirectorio.GetFiles
+            Dim listaArchivos As New List(Of System.IO.FileInfo)
+            For Each MiArchivo As System.IO.FileInfo In Files
+                listaArchivos.Add(MiArchivo)
+            Next
+            generarGaleria(listaArchivos)
         End If
     End Sub
 
