@@ -112,6 +112,7 @@
     <Content Include="Imagenes\Logo AM Climatizacion.jpg" />
     <Content Include="Imagenes\Logo AM Climatizacion.png" />
     <Content Include="Imagenes\Logo.png" />
+    <Content Include="Imagenes\ok.png" />
     <Content Include="Imagenes\RedesSociales\FaceBook_64x64.png" />
     <Content Include="Imagenes\RedesSociales\jobbank.png" />
     <Content Include="Imagenes\RedesSociales\Twitter_64x64.png" />
@@ -158,6 +159,7 @@
     <Content Include="JS\slideshow.js" />
     <Content Include="login.aspx" />
     <Content Include="logout.aspx" />
+    <Content Include="mensajeConfirmacion.aspx" />
     <Content Include="NuestraEmpresa.aspx" />
     <Content Include="NuestrosClientes.aspx" />
     <Content Include="nuestrosTrabajos.aspx" />
@@ -207,6 +209,13 @@
     <Compile Include="Maestra.Master.vb">
       <DependentUpon>Maestra.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mensajeConfirmacion.aspx.designer.vb">
+      <DependentUpon>mensajeConfirmacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mensajeConfirmacion.aspx.vb">
+      <DependentUpon>mensajeConfirmacion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

@@ -2,14 +2,14 @@
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        'If Session("Usuario") Is Nothing Then
-        'Response.Redirect("index.aspx")
-        'End If
+        If Session("Usuario") Is Nothing Then
+            Response.Redirect("index.aspx")
+        End If
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Try
-            Validaciones.validarSubmit(Me, Me.Error, Me.lbl_TituloError)
+            Validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
 
             Dim ArchivoCorrecto As Boolean
             If FileUp.HasFile Then
@@ -49,8 +49,6 @@
 
                             MiArchivo.SaveAs(pathArchivoDestino)
 
-                            'Acá enviar a una página linda
-                            MsgBox("Archivo Subido!")
                         Catch ex As Exception
                             'Acá hacer una exepción generica para estos casos.
                             Throw ex
@@ -62,8 +60,7 @@
             Else
                 Throw New BLL.ArchivosIncompletosException
             End If
-
-
+            Response.Redirect("mensajeConfirmacion.aspx")
         Catch ex As BLL.CamposincompletosException
             Me.error.Visible = True
             Me.lbl_TituloError.Text = ex.Mensaje
