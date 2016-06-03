@@ -91,6 +91,7 @@
     <Content Include="CSS\EstiloMenu.css" />
     <Content Include="CSS\estiloSliderGaleria.css" />
     <Content Include="default.aspx" />
+    <Content Include="enConstruccion.aspx" />
     <Content Include="Imagenes\a12.png" />
     <Content Include="Imagenes\b05.png" />
     <Content Include="Imagenes\Clientes\bgh-logo.jpg" />
@@ -108,6 +109,7 @@
     <Content Include="Imagenes\ImagenesSlide\slider7.jpg" />
     <Content Include="Imagenes\ImagenesSlide\slider8.jpg" />
     <Content Include="Imagenes\ImagenesSlide\slider9.jpg" />
+    <Content Include="Imagenes\imagenUnderConstruccion.jpg" />
     <Content Include="Imagenes\loading.gif" />
     <Content Include="Imagenes\Logo AM Climatizacion.jpg" />
     <Content Include="Imagenes\Logo AM Climatizacion.png" />
@@ -180,6 +182,13 @@
     </Compile>
     <Compile Include="default.aspx.vb">
       <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="enConstruccion.aspx.designer.vb">
+      <DependentUpon>enConstruccion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="enConstruccion.aspx.vb">
+      <DependentUpon>enConstruccion.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Index.aspx.designer.vb">
