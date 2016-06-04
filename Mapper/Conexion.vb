@@ -2,7 +2,10 @@
 Imports System.Data.SqlClient
 
 Public Class Conexion
-    Private Shared _objConexion As New SqlConnection("Data Source=.\SQLEXPRESS;Initial Catalog=AMBD;Integrated Security=True")
+    'Conexión para BD en Equipo
+    'Private Shared _objConexion As New SqlConnection("Data Source=.\SQLEXPRESS;Initial Catalog=AMBD;Integrated Security=True")
+    'Conexión para BD en Web
+    Private Shared _objConexion As New SqlConnection("Data Source=localhost;Initial Catalog=wt000140_AMBD;Integrated Security=SSPI")
     Private Shared _comando As SqlCommand
 
     Public Shared Function ExecuteDataTable(ByVal _paramComando As SqlCommand) As DataTable
