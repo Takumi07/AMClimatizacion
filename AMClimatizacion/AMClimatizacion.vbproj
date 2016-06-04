@@ -94,6 +94,7 @@
     <Content Include="enConstruccion.aspx" />
     <Content Include="Imagenes\a12.png" />
     <Content Include="Imagenes\b05.png" />
+    <Content Include="Imagenes\celular.png" />
     <Content Include="Imagenes\Clientes\bgh-logo.jpg" />
     <Content Include="Imagenes\Clientes\Daikin Logo.png" />
     <Content Include="Imagenes\Clientes\LG Logo.gif" />
@@ -114,11 +115,13 @@
     <Content Include="Imagenes\Logo AM Climatizacion.jpg" />
     <Content Include="Imagenes\Logo AM Climatizacion.png" />
     <Content Include="Imagenes\Logo.png" />
+    <Content Include="Imagenes\mail.png" />
     <Content Include="Imagenes\ok.png" />
     <Content Include="Imagenes\RedesSociales\FaceBook_64x64.png" />
     <Content Include="Imagenes\RedesSociales\jobbank.png" />
     <Content Include="Imagenes\RedesSociales\Twitter_64x64.png" />
     <Content Include="Imagenes\RedesSociales\Youtube_128x128.png" />
+    <Content Include="Imagenes\telefono.png" />
     <Content Include="img\01.jpg" />
     <Content Include="img\02.jpg" />
     <Content Include="img\03.jpg" />
@@ -288,6 +291,7 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+    <None Include="My Project\PublishProfiles\AMClimatizacion.pubxml" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>
@@ -313,6 +317,7 @@
       <Name>Entidades</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
