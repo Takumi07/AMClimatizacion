@@ -10,11 +10,13 @@
             Validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
             BLL.MailingBLL.enviarMailContacto(txt_correo.Text, txt_nomape.Text, txt_telefono.Text, mensaje.Value)
             'Mensaje de que se envió correctamente la consulta
+            Response.Redirect("mensajeConfirmacionContacto.aspx")
         Catch ex As BLL.CamposincompletosException
             Me.error.Visible = True
             Me.lbl_TituloError.Text = ex.Mensaje
         Catch ex As Exception
-            Throw ex ' cambiar
+            Me.error.Visible = True
+            Me.lbl_TituloError.Text = "Se ha producido un error al enviar el correo. Por favor intentelo más tarde."
         End Try
     End Sub
 End Class

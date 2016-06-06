@@ -165,6 +165,7 @@
     <Content Include="login.aspx" />
     <Content Include="logout.aspx" />
     <Content Include="mensajeConfirmacion.aspx" />
+    <Content Include="mensajeConfirmacionContacto.aspx" />
     <Content Include="NuestraEmpresa.aspx" />
     <Content Include="NuestrosClientes.aspx" />
     <Content Include="nuestrosTrabajos.aspx" />
@@ -227,6 +228,13 @@
     </Compile>
     <Compile Include="mensajeConfirmacion.aspx.vb">
       <DependentUpon>mensajeConfirmacion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="mensajeConfirmacionContacto.aspx.designer.vb">
+      <DependentUpon>mensajeConfirmacionContacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mensajeConfirmacionContacto.aspx.vb">
+      <DependentUpon>mensajeConfirmacionContacto.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
