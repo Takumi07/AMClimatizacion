@@ -8,11 +8,11 @@
             'A quien va
             Correo.To.Add(New System.Net.Mail.MailAddress("ALEXIS.TAKUMI@GMAIL.COM"))
             Correo.Subject = "AM Climatización - Solicitud de Contacto"
-            Correo.Body = "<html><head> </head><body><img src=""http://i64.tinypic.com/wmkspg.jpg"" width=""766px"" height=""150px"" /><br/><br/><b> " &
-            "Solicitud de Contacto</b><br/><br/><hr " &
-            " style=""border-style: 0; border-color: 0; border-width: 0px; padding: 0px; margin: 0px; height: 7px; background-color: #019098;"" /> " &
-            " <br /> <br /><span><b>Nombre y Apellido: </b> " & paramNombreApellido & " <br/> <b>Correo: </b> " & paramCorreo & " <br/>  <b>Teléfono: </b> " & paramTelefono & " <br/>  <b>Mensaje: </b> " & paramMensaje & " <br/>  </span><p>  &nbsp;</p><p>   &nbsp;</p><hr " &
-            "style=""border-style: 0; border-color: 0; border-width: 0px; padding: 0px; margin: 0px; height: 7px; background-color: #019098;"" /> " &
+            Correo.Body = "<html><head> </head><body><img src=""http://i64.tinypic.com/wmkspg.jpg"" width=""380px"" height=""100""/><br/><br/><b> " &
+            "Solicitud de Contacto</b><br/><hr " &
+            " style=""border-style: 0; border-color: 0; border-width: 0px; padding: 0px; margin: 0px; height: 7px; background-color: #3593D9;"" /> " &
+            " <br /><span><b><u>Nombre y Apellido: </u></b> " & paramNombreApellido & " <br/> <b><u>Correo: </u></b> " & paramCorreo & " <br/>  <b><u>Teléfono: </u></b> " & paramTelefono & " <br/>  <b><u>Mensaje: </u></b> " & paramMensaje & "</span><hr " &
+            "style=""border-style: 0; border-color: 0; border-width: 0px; padding: 0px; margin: 0px; height: 7px; background-color: #3593D9;"" /> " &
             " </body></html> "
             Correo.Priority = System.Net.Mail.MailPriority.Normal
             Dim smtp As New System.Net.Mail.SmtpClient
