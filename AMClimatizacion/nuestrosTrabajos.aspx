@@ -96,7 +96,7 @@
                                 <div class="col-md-10 col-md-offset-1">
 
                                     <!-- #region Jssor Slider Begin -->
-                                    <div id="jssor_1" class="embed-responsive" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 800px; height: 480px; overflow: hidden; background-color: #24262e;">
+                                    <div id="jssor_1" class="embed-responsive" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 950px; height: 480px; overflow: hidden; background-color: #24262e;">
                                         <asp:Panel ID="panelImagenes" runat="server">
 
                                         </asp:Panel>
