@@ -9,7 +9,8 @@
     <link rel="stylesheet" type="text/css" href="CSS/Estilos.css" />
     <link rel="stylesheet" type="text/css" href="CSS/EstiloMenu.css" />
     <script type="text/javascript" src="JS/Menu.js"></script>
-    <title></title>
+    <title>AM Climatización</title>
+<link rel="shortcut icon" type="image/x-icon" href="Imagenes/icono_nieve.ico" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>

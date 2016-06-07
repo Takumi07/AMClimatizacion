@@ -101,6 +101,7 @@
     <Content Include="Imagenes\Clientes\Logo-Surrey.jpg" />
     <Content Include="Imagenes\FondoNieveBlanco.png" />
     <Content Include="Imagenes\FondoNieveNegro.png" />
+    <Content Include="Imagenes\icono_nieve.ico" />
     <Content Include="Imagenes\ImagenesSlide\Slider1.jpg" />
     <Content Include="Imagenes\ImagenesSlide\Slider2.jpg" />
     <Content Include="Imagenes\ImagenesSlide\Slider3.jpg" />
