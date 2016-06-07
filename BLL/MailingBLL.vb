@@ -4,7 +4,7 @@
             Dim Correo As New System.Net.Mail.MailMessage()
             Correo.IsBodyHtml = True
             'De quien viene
-            Correo.From = New System.Net.Mail.MailAddress("ALEXIS.TAKUMI@GMAIL.COM", "Takumi")
+            Correo.From = New System.Net.Mail.MailAddress("contacto@amclimatizacion.com.ar", "Contacto AM Climatización")
             'A quien va
             Correo.To.Add(New System.Net.Mail.MailAddress("ALEXIS.TAKUMI@GMAIL.COM"))
             Correo.Subject = "AM Climatización - Solicitud de Contacto"
@@ -16,13 +16,15 @@
             " </body></html> "
             Correo.Priority = System.Net.Mail.MailPriority.Normal
             Dim smtp As New System.Net.Mail.SmtpClient
-            smtp.Host = "smtp.gmail.com"
-            smtp.Port = 587
-            smtp.Credentials = New System.Net.NetworkCredential("ALEXIS.TAKUMI@GMAIL.COM", BLL.EncriptarBLL.Desencriptar("30EEB8480255E161AFEC304209B26DFE"))
-            smtp.EnableSsl = True
+            'Modificado para que envie desde la web
+            smtp.Host = "localhost"
+            'smtp.Port = 587
+            'smtp.Credentials = New System.Net.NetworkCredential("contacto@amclimatizacion.com.ar", BLL.EncriptarBLL.Desencriptar("796F8D41776AAEDA1E2E2A7384668E54"))
+            'smtp.EnableSsl = True
             smtp.Send(Correo)
         Catch ex As Exception
             Throw ex
         End Try
     End Sub
 End Class
+
