@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-Clima">
-                    <div class="panel-heading">Nuestros Clientes</div>
+                    <div class="panel-heading">Nuestras Marcas</div>
                     <br />
                     <div class="panel-body">
                         <div class="col-md-10 col-md-offset-1">

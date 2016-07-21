@@ -32,8 +32,7 @@
                                 <address class="miLabelAddress">
                                     <img class="icon left" src="Imagenes/mail.png" class="img-responsive" />am.climatizacion@ciudad.com.ar<br />
                                     <img class="icon left" src="Imagenes/telefono.png" class="img-responsive" />Teléfono: 4224-3469<br />
-                                    <img class="icon left" src="Imagenes/celular.png" class="img-responsive" />Celular: 15-5343-4284<br />
-                                    <img class="icon left" src="Imagenes/celular.png" class="img-responsive" />Celular: 15-2017-4983<br />
+                                    <img class="icon left" src="Imagenes/celular.png" class="img-responsive" />Celular: 15-5343-4284
                                 </address>
                             </div>
                         </div>
@@ -48,7 +47,7 @@
                                     <li runat="server" id="login"><a href='login.aspx'><span>Intranet</span></a></li>
                                     <li><a href='contacto.aspx'><span>Contacto</span></a></li>
                                     <li><a href='nuestrosTrabajos.aspx'><span>Nuestros Trabajos</span></a></li>
-                                    <li><a href='nuestrosClientes.aspx'><span>Nuestros Clientes</span></a></li>
+                                    <li><a href='nuestrosClientes.aspx'><span>Nuestras Marcas</span></a></li>
                                     <li><a href='nuestraEmpresa.aspx'><span>Nuestra Empresa</span></a></li>
                                     <li><a href='index.aspx'><span>Inicio</span></a></li>
                                 </ul>

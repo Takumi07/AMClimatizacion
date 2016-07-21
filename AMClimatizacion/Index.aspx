@@ -173,18 +173,11 @@
         <br />
         <br />
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="panelBoton">
                     <img src="Imagenes/RedesSociales/FaceBook_64x64.png" class="img-responsive panelBoton-imagen" />
                     <div class="panelBoton-titulo">Facebook</div>
                     <div class="panelBoton-texto">Seguí a AM Climatización en nuestro Facebook Oficial.</div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="panelBoton">
-                    <img src="Imagenes/RedesSociales/Twitter_64x64.png" class="img-responsive panelBoton-imagen" />
-                    <div class="panelBoton-titulo">Twitter</div>
-                    <div class="panelBoton-texto">Seguí todas las novedades de Am Climatización en nuestro Twitter Oficial.</div>
                 </div>
             </div>
             <div class="col-md-6">
