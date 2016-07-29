@@ -13,15 +13,15 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-md-4">
-                            <br />
+            <div class="col-md-5">
+                            <br />  <br />
                 <div class="panelBoton-titulo">Bienvenidos a AM Climatización</div>
-                <div class="panelBoton-texto">Hola aca va el texto de introducción para agregara  la pagina como para que puedan hacer una introducción a la empresa y ver las cosas viste. Me gustaria que el texto tenga un largo bastante importante para que sea largo y probar.</div>
+                <div class="panelBoton-texto">Somos una empresa netamente dedicada a la ejecución de instalaciones termomecanicas y de aire acondicionado de todo tipo de envergadura. Desde la etapa de cálculo y balance, dibujo y proyecto, y la ejecución completa de la obra. Con personal totalmente calificado, y asesoramiento del área. También contamos con la experiencia en la elaboración y ejecución de los diferentes sistemas del rubro y del mercado, tanto los sistemas tradicionales como los especiales y los de última generación.</div>
             </div>
 
 
             <div class="col-md-6 col-md-offset-1">
-
+                <br />
 
                 <div id="slider1_container" class="embed-responsive" style="position: relative; top: 0px; left: 0px; width: 900px; height: 500px; overflow: hidden;">
 
