@@ -174,11 +174,11 @@
         <br />
         <div class="row">
             <div class="col-md-6">
-                <div class="panelBoton">
+                <a href="http://www.facebook.com/am.climatizacion" target="_blank"> <div class="panelBoton">
                     <img src="Imagenes/RedesSociales/FaceBook_64x64.png" class="img-responsive panelBoton-imagen" />
                     <div class="panelBoton-titulo">Facebook</div>
                     <div class="panelBoton-texto">Seguí a AM Climatización en nuestro Facebook Oficial.</div>
-                </div>
+                </div></a>
             </div>
             <div class="col-md-6">
                 <a href="nuestrosTrabajos.aspx"><div class="panelBoton">

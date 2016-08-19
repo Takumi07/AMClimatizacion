@@ -19,6 +19,18 @@ Somos representantes de las primeras marcas en el país:
                             </p>
 
                             <br />
+                                 <div class="row">
+                                <div class="col-md-2">
+                                    <!--<img class="LogoClientes" src="Imagenes/Clientes/bgh-logo.jpg" />-->
+                                    <img class="img-responsive" src="Imagenes/Clientes/cardiff.jpg" style="padding-top:20px" />
+                                </div>
+
+                                <div class="col-md-10 TextoJustificado">
+                                   Cardiff es una marca joven en el mercado Argentino con gran empuje y en continuo crecimiento. Su objetivo es ofrecer productos de gran calidad para el confort de las personas. La marca es comercializada solamente en el canal de "especialistas" en aire acondicionado, asegurandose que el cliente final tenga el mejor asesoramiento posible..
+   
+                                </div>
+                            </div>
+                            <br />
 
                             <div class="row">
                                 <div class="col-md-2">
@@ -27,7 +39,7 @@ Somos representantes de las primeras marcas en el país:
                                 </div>
 
                                 <div class="col-md-10 TextoJustificado">
-                                    BGH, mediante su División Aire Acondicionado, con sus marcas BGH Silent Air, Lennox y McQuay, fabrica y comercializa acondicionadores de aire para aplicaciones hogareñas, residenciales y comerciales.
+                                    Mediante su División Aire Acondicionado, con sus marcas BGH Silent Air, Lennox y McQuay, fabrica y comercializa acondicionadores de aire para aplicaciones hogareñas, residenciales y comerciales.
    
                                 </div>
                             </div>
@@ -40,7 +52,7 @@ Somos representantes de las primeras marcas en el país:
                                 </div>
 
                                 <div class="col-md-10 TextoJustificado">
-                                    Daikin Lidera los mercados de Aire Acondicionado en Japón y Europa. Es líder en Argentina en sistemas VRV, con más de 12.600 HP instalados.
+                                    Daikin lidera los mercados de Aire Acondicionado en Japón y Europa. Es líder en Argentina en sistemas VRV, con más de 12.600 HP instalados.
    
                                 </div>
                             </div>

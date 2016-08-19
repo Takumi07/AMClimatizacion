@@ -6,7 +6,7 @@
             'De quien viene
             Correo.From = New System.Net.Mail.MailAddress("contacto@amclimatizacion.com.ar", "Contacto AM Climatización")
             'A quien va
-            Correo.To.Add(New System.Net.Mail.MailAddress("am.climatizacion@ciudad.com.ar"))
+            Correo.To.Add(New System.Net.Mail.MailAddress("am.climatizacion.aa@gmail.com"))
             Correo.Subject = "AM Climatización - Solicitud de Contacto"
             ' Correo.Body = "<html><head> </head><body><img src=""http://i64.tinypic.com/wmkspg.jpg"" width=""380px"" height=""100""/><br/><br/><b> " &
             '    "Solicitud de Contacto</b><br/><hr " &
